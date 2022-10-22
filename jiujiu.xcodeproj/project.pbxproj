@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82BA70F290398A00041E78D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BA70E290398A00041E78D /* CommentCell.swift */; };
 		B879E2CD28FA6D41002A5052 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879E2CC28FA6D41002A5052 /* PostCell.swift */; };
 		B88A331AA9130BC8AC2962C2 /* Pods_jiujiu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596FE286EE1C2B9F1ABC33B9 /* Pods_jiujiu.framework */; };
 		B8B7EA9F28FA22D800FB36B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7EA9E28FA22D800FB36B9 /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 		11DC0C4F7D9409421829786A /* Pods-jiujiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiujiu.release.xcconfig"; path = "Target Support Files/Pods-jiujiu/Pods-jiujiu.release.xcconfig"; sourceTree = "<group>"; };
 		2041BB727AC96652E8D6B24F /* Pods-jiujiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiujiu.debug.xcconfig"; path = "Target Support Files/Pods-jiujiu/Pods-jiujiu.debug.xcconfig"; sourceTree = "<group>"; };
 		596FE286EE1C2B9F1ABC33B9 /* Pods_jiujiu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jiujiu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82BA70E290398A00041E78D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		B879E2CC28FA6D41002A5052 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		B8B7EA9B28FA22D800FB36B9 /* jiujiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiujiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B7EA9E28FA22D800FB36B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				B8B7EAD028FA393100FB36B9 /* FeedViewController.swift */,
 				B8C1B97728FA5B2E00C9DB79 /* CameraViewController.swift */,
 				B879E2CC28FA6D41002A5052 /* PostCell.swift */,
+				B82BA70E290398A00041E78D /* CommentCell.swift */,
 			);
 			path = jiujiu;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				B8B7EAD128FA393100FB36B9 /* FeedViewController.swift in Sources */,
 				B8B7EAA128FA22D800FB36B9 /* SceneDelegate.swift in Sources */,
 				B879E2CD28FA6D41002A5052 /* PostCell.swift in Sources */,
+				B82BA70F290398A00041E78D /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

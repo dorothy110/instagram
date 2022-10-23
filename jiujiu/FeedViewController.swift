@@ -103,11 +103,13 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let post = posts[indexPath.row]
+        
+        let post = posts[indexPath.section]
         let comments = (post["comments"] as? [PFObject]) ?? []
         
-        let cell = tableview.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+
         if indexPath.row == 0{
+            let cell = tableview.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
             let user = post["author"] as! PFUser
             cell.usernamelabel.text = user.username
             
@@ -127,12 +129,12 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.nameLabel.text = user.username
             return cell
         }else{
-            let cell = tableview.dequeueReusableCell(withIdentifier: "AddCommennt Cell")!
+            let cell = tableview.dequeueReusableCell(withIdentifier: "AddCommentCell")!
             return cell
         }
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let post = posts[indexPath.row]
+        let post = posts[indexPath.section]
         
         let comments = (post["comments"] as? [PFObject]) ?? []
         
